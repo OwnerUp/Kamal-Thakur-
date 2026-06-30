@@ -1,0 +1,70 @@
+body{
+margin:0;
+display:flex;
+justify-content:center;
+align-items:center;
+min-height:100vh;
+background:linear-gradient(180deg,#0b0f17,#1d1622);
+font-family:Arial;
+color:#fff;
+}
+.card{
+width:360px;
+padding:28px;
+background:rgba(18,18,25,.95);
+border-radius:28px;
+border:1px solid #b85b7d;
+box-shadow:0 0 40px rgba(184,91,125,.35);
+text-align:center;
+}
+.badge{
+display:inline-block;
+padding:10px 16px;
+border-radius:30px;
+border:1px solid #b85b7d;
+background:#22151c;
+color:#f3adc5;
+font-size:12px;
+}
+.dp{
+width:120px;
+height:120px;
+object-fit:cover;
+border-radius:50%;
+border:4px solid #b85b7d;
+box-shadow:0 0 25px #b85b7d;
+margin:22px auto;
+}
+h1{color:#f3adc5;}
+.sub{color:#bfbfbf;}
+.stats{display:flex;gap:10px;margin:20px 0;}
+.stats div{
+flex:1;
+background:#1c1f2d;
+padding:12px;
+border-radius:14px;
+}
+.stats b{display:block;color:#f3adc5;}
+.stats span{font-size:12px;color:#999;}
+.feature{
+background:#161a27;
+padding:14px;
+margin:10px 0;
+border-radius:12px;
+text-align:left;
+}
+.btn{
+display:block;
+padding:16px;
+margin-top:22px;
+border-radius:40px;
+text-decoration:none;
+font-weight:bold;
+color:#fff;
+background:linear-gradient(90deg,#8e44ad,#ff4f81);
+}
+.footer{
+font-size:12px;
+margin-top:18px;
+color:#888;
+}
